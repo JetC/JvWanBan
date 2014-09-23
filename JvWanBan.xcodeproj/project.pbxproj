@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFB5A00519D1A69200522318 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A00419D1A69200522318 /* main.m */; };
+		DFB5A00819D1A69200522318 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A00719D1A69200522318 /* AppDelegate.m */; };
+		DFB5A00B19D1A69200522318 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A00A19D1A69200522318 /* FirstViewController.m */; };
+		DFB5A00E19D1A69200522318 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A00D19D1A69200522318 /* SecondViewController.m */; };
+		DFB5A01119D1A69200522318 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB5A00F19D1A69200522318 /* Main.storyboard */; };
+		DFB5A01319D1A69200522318 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB5A01219D1A69200522318 /* Images.xcassets */; };
+		DFB5A01619D1A69200522318 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB5A01419D1A69200522318 /* LaunchScreen.xib */; };
+		DFB5A02219D1A69200522318 /* JvWanBanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB5A02119D1A69200522318 /* JvWanBanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFB5A01C19D1A69200522318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB59FF719D1A69200522318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFB59FFE19D1A69200522318;
+			remoteInfo = JvWanBan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFB59FFF19D1A69200522318 /* JvWanBan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JvWanBan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB5A00319D1A69200522318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB5A00419D1A69200522318 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFB5A00619D1A69200522318 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFB5A00719D1A69200522318 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFB5A00919D1A69200522318 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DFB5A00A19D1A69200522318 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DFB5A00C19D1A69200522318 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DFB5A00D19D1A69200522318 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DFB5A01019D1A69200522318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFB5A01219D1A69200522318 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFB5A01519D1A69200522318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DFB5A01B19D1A69200522318 /* JvWanBanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JvWanBanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFB5A02019D1A69200522318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB5A02119D1A69200522318 /* JvWanBanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JvWanBanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFB59FFC19D1A69200522318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB5A01819D1A69200522318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFB59FF619D1A69200522318 = {
+			isa = PBXGroup;
+			children = (
+				DFB5A00119D1A69200522318 /* JvWanBan */,
+				DFB5A01E19D1A69200522318 /* JvWanBanTests */,
+				DFB5A00019D1A69200522318 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB5A00019D1A69200522318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFB59FFF19D1A69200522318 /* JvWanBan.app */,
+				DFB5A01B19D1A69200522318 /* JvWanBanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFB5A00119D1A69200522318 /* JvWanBan */ = {
+			isa = PBXGroup;
+			children = (
+				DFB5A00619D1A69200522318 /* AppDelegate.h */,
+				DFB5A00719D1A69200522318 /* AppDelegate.m */,
+				DFB5A00919D1A69200522318 /* FirstViewController.h */,
+				DFB5A00A19D1A69200522318 /* FirstViewController.m */,
+				DFB5A00C19D1A69200522318 /* SecondViewController.h */,
+				DFB5A00D19D1A69200522318 /* SecondViewController.m */,
+				DFB5A00F19D1A69200522318 /* Main.storyboard */,
+				DFB5A01219D1A69200522318 /* Images.xcassets */,
+				DFB5A01419D1A69200522318 /* LaunchScreen.xib */,
+				DFB5A00219D1A69200522318 /* Supporting Files */,
+			);
+			path = JvWanBan;
+			sourceTree = "<group>";
+		};
+		DFB5A00219D1A69200522318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB5A00319D1A69200522318 /* Info.plist */,
+				DFB5A00419D1A69200522318 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFB5A01E19D1A69200522318 /* JvWanBanTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB5A02119D1A69200522318 /* JvWanBanTests.m */,
+				DFB5A01F19D1A69200522318 /* Supporting Files */,
+			);
+			path = JvWanBanTests;
+			sourceTree = "<group>";
+		};
+		DFB5A01F19D1A69200522318 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFB5A02019D1A69200522318 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFB59FFE19D1A69200522318 /* JvWanBan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB5A02519D1A69200522318 /* Build configuration list for PBXNativeTarget "JvWanBan" */;
+			buildPhases = (
+				DFB59FFB19D1A69200522318 /* Sources */,
+				DFB59FFC19D1A69200522318 /* Frameworks */,
+				DFB59FFD19D1A69200522318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JvWanBan;
+			productName = JvWanBan;
+			productReference = DFB59FFF19D1A69200522318 /* JvWanBan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFB5A01A19D1A69200522318 /* JvWanBanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB5A02819D1A69200522318 /* Build configuration list for PBXNativeTarget "JvWanBanTests" */;
+			buildPhases = (
+				DFB5A01719D1A69200522318 /* Sources */,
+				DFB5A01819D1A69200522318 /* Frameworks */,
+				DFB5A01919D1A69200522318 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB5A01D19D1A69200522318 /* PBXTargetDependency */,
+			);
+			name = JvWanBanTests;
+			productName = JvWanBanTests;
+			productReference = DFB5A01B19D1A69200522318 /* JvWanBanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB59FF719D1A69200522318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "孙培峰";
+				TargetAttributes = {
+					DFB59FFE19D1A69200522318 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					DFB5A01A19D1A69200522318 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DFB59FFE19D1A69200522318;
+					};
+				};
+			};
+			buildConfigurationList = DFB59FFA19D1A69200522318 /* Build configuration list for PBXProject "JvWanBan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFB59FF619D1A69200522318;
+			productRefGroup = DFB5A00019D1A69200522318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFB59FFE19D1A69200522318 /* JvWanBan */,
+				DFB5A01A19D1A69200522318 /* JvWanBanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFB59FFD19D1A69200522318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB5A01119D1A69200522318 /* Main.storyboard in Resources */,
+				DFB5A01619D1A69200522318 /* LaunchScreen.xib in Resources */,
+				DFB5A01319D1A69200522318 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB5A01919D1A69200522318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFB59FFB19D1A69200522318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB5A00E19D1A69200522318 /* SecondViewController.m in Sources */,
+				DFB5A00819D1A69200522318 /* AppDelegate.m in Sources */,
+				DFB5A00B19D1A69200522318 /* FirstViewController.m in Sources */,
+				DFB5A00519D1A69200522318 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB5A01719D1A69200522318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB5A02219D1A69200522318 /* JvWanBanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB5A01D19D1A69200522318 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFB59FFE19D1A69200522318 /* JvWanBan */;
+			targetProxy = DFB5A01C19D1A69200522318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFB5A00F19D1A69200522318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB5A01019D1A69200522318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFB5A01419D1A69200522318 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFB5A01519D1A69200522318 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFB5A02319D1A69200522318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFB5A02419D1A69200522318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFB5A02619D1A69200522318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JvWanBan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFB5A02719D1A69200522318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JvWanBan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DFB5A02919D1A69200522318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JvWanBanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JvWanBan.app/JvWanBan";
+			};
+			name = Debug;
+		};
+		DFB5A02A19D1A69200522318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JvWanBanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JvWanBan.app/JvWanBan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFB59FFA19D1A69200522318 /* Build configuration list for PBXProject "JvWanBan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB5A02319D1A69200522318 /* Debug */,
+				DFB5A02419D1A69200522318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB5A02519D1A69200522318 /* Build configuration list for PBXNativeTarget "JvWanBan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB5A02619D1A69200522318 /* Debug */,
+				DFB5A02719D1A69200522318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFB5A02819D1A69200522318 /* Build configuration list for PBXNativeTarget "JvWanBanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB5A02919D1A69200522318 /* Debug */,
+				DFB5A02A19D1A69200522318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFB59FF719D1A69200522318 /* Project object */;
+}
