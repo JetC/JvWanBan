@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 孙培峰. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -15,3 +15,4 @@
 
 @end
 
+//TODO:准备连接StoryboardLink

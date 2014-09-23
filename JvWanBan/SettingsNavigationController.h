@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  SettingsNavigationController.h
 //  JvWanBan
 //
 //  Created by 孙培峰 on 9/23/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface SettingsNavigationController : UINavigationController
 
 @end
-
